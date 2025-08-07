@@ -5,6 +5,8 @@ This is an open-source live chat application that allows users to communicate in
 
 An example is at [https://mjdawson.net/chat](https://mjdawson.net/chat)
 
+SERVER APPLICAITON REQUIRED, GET FROM https://github.com/MJDaws0n/Chat-Website-Server
+
 Features
 --------
 
