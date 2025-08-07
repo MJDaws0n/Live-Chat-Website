@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="/assets/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <form id="loginForm" class="login-form" autocomplete="off">
+            <h1>Login</h1>
+            <label for="sixDigitCode">Enter your 6-digit code</label>
+            <input autocomplete="off" type="text" id="sixDigitCode" maxlength="6">
+            <img src="/assets/loading.svg" alt="" id="loading">
+
+            <p id="error"></p>
+            <a type="submit">Submit</a>
+        </form>
+        <a href="#" class="create-account-btn">Request Account</a>
+    </div>
+    <script src="/assets/login.js"></script>
+</body>
+</html>

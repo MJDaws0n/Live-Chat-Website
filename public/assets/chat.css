@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.chat-box {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    border-bottom: 1px solid #444;
+}
+.chat-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: #1f1f1f;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 10px;
+}
+
+.chat-box::-webkit-scrollbar-thumb:hover {
+    background-color: #666666;
+}
+
+.message {
+    margin: 0.5rem 0;
+    word-break: break-all;
+}
+
+.sender {
+    font-weight: bold;
+    color: #00bcd4;
+}
+
+.input-container {
+    display: flex;
+    padding: 0.5rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 0.5rem;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+}
+
+button {
+    background-color: #ffffff;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+}
+
+h1{
+    position: absolute;
+    top: 18px;
+    pointer-events: none;
+}
+h3{
+    position: absolute;
+    top: 58px;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .chat-container {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+    h1{
+        display: none;
+    }
+    h3{
+        display: none;
+    }
+}
