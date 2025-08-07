@@ -19,7 +19,8 @@ Features
 Installation
 ------------
 
-Need to make this, but im sure you can figure it out
+Rename .env_example to .env and set the values in there for a DB
+Need to make this, but im sure you can figure it out or just ask chatgpt
     
 
 Usage
