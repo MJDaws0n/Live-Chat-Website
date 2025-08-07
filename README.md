@@ -20,6 +20,7 @@ Installation
 ------------
 
 Rename .env_example to .env and set the values in there for a DB
+Install DB from the database.sql file, i can't remeber if it sets it up automatically, so if you get an error just add it
 Need to make this, but im sure you can figure it out or just ask chatgpt
     
 
